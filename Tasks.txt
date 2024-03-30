@@ -1,0 +1,7 @@
+Botond: Diagrama de relatii pentru login/sign-up si pentru cumparare bilet
+
+Jawad: Diagrama UML la baza de date
+
+Radu: Structura Cod, functii, implementare
+
+Adaugati functii as you see fit si in cursul saptamanii ne auzim sa punem la un loc ce avem

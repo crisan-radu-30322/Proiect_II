@@ -1,0 +1,41 @@
+reports
+
+Project themes
+->Ticketing/Event manager, platform
++search evenimente / filters
++add event 
++availability (update & delete)
+-reports
+
+admin - the one who puts or delets stuff from form + anything else
+client - buys tickets to events, browsing, searching, review
+
+authentication: client account user, admin user
+sign-in: username, e-mail, password, billing address, age-verify
+log-in: username, password
+admin: username: admin, password: admin
+
+GUI's:
+Admin: front form, insert form, delete, modify, confirmation
+Client: front form (diff from admin), selection form, payment, confirmation
+Both: Registration
+Pop-ups: offers, discounts, limitied - offers
+
+Data bases:
+1. Users: Admin, Clients
+2. Locatii
+3. Evenimente
+
+
+What to look for?
+App components
+Database structure
+Database relations
+C#
+UML
+Overall stucture of source code
+
+
+
+
+
