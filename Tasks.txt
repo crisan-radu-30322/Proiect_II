@@ -1,7 +1,31 @@
-Botond: Diagrama de relatii pentru login/sign-up si pentru cumparare bilet
+Taskuri Proiect
 
-Jawad: Diagrama UML la baza de date
+Voi scrie functiile necesare pentru proiect si mare parte ce ar trebui sa faca si sa arate. 
+Voi va intelegeti ce faceti fiecare. 
+Ceea ce tine de front end si cum arata va las pe voi sa faceti cum vreti.
 
-Radu: Structura Cod, functii, implementare
+Functii pentru client:
 
-Adaugati functii as you see fit si in cursul saptamanii ne auzim sa punem la un loc ce avem
+->Sign-up: userul introduce datele, datele sunt salvate in baza de date user
+->Login: userul introduce date, datele sunt apoi verificate cu datele din baza de date, mesaj "Invalid credentials" daca nu sunt gasite
+	+ special credentials pentru admin
+->Logout
+->Front page
+->Filtre evenimente: tip, locatie(lista de locatii sa fie in ordine alfabetica) - drop down menu
+->Cumparare bilet la eveniment: user face rezervare, rezervarea este adaugata la baza de date
+->Vizualizare profil si rezervari: client apasa pe buton "profil" si o pagina cu datele sale si rezervarile sale se deschide
+
+
+Functii pentru admin:
+
+->Admin front page: cu functii de adugare eveniment la baza de date, vizualizare rezervari, vizualizare conturi clienti(doar username si email)
+->Clean-up memory: stergere evenimente si rezervari expirate(ex. sa se stearga evenimentele si rezervarile din luna aprilie: se verifica data evenimentului pentru luna aprilie 
+si se sterg evenimentele si rezervarile respective)
+
+
+Pentru aspecte de front-end puteti folosi un framework deja facut. In caz de intrebari legate de taskuri dati mesaj in privat.
+
+DEADLINE(pe cat posibil):  6 mai
+
+!!!! Ar fi super daca cineva ar face functia de register sa avem ce sa aratam pe martea asta pe langa proiectul si baza de date.
+Pentru functie de register check lab6 II plus pentru alte aspecte.
